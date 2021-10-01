@@ -68,6 +68,11 @@ RewriteRule ^ index.html [QSA,L]
 ```
 
 
+## Fuentes
+
+* [Extensiones de Visual Studio Code para trabajar con React](https://code.visualstudio.com/docs/nodejs/reactjs-tutorial)
+
+
 
 ### `npm run eject`
 
