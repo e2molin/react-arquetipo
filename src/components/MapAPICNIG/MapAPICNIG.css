@@ -1,0 +1,12 @@
+.visor-wrapper {
+    flex: 1;
+    overflow: hidden;
+}
+
+.visor-wrapper .maplienzo {
+    border: 0;
+    width: 600px;
+    transition: all .3s ease-in-out;
+    height: 600px;
+    background-color:black;
+}

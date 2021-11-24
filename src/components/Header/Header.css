@@ -1,0 +1,89 @@
+header {
+    height: 70px;
+    background-color: #494780;
+    display: flex;
+    align-items: center;
+    font-family: 'Fira Sans', sans-serif;
+    z-index: 999999;
+}
+
+header .logo img {
+  max-height: 60px;
+  margin-left: 1rem;
+}
+
+header .logo-ign img {
+  max-height: 64px;
+  margin-left: 0.5rem;
+  margin-top: 3px;
+}
+
+header .visor-title {
+    flex: 1;
+    margin-right: 2.5rem;
+    opacity: 1;
+    position: relative;
+    cursor: pointer;
+    text-align: right;
+}
+
+header .visor-title img {
+    width: 155px;
+    height: 64px;
+    position: relative;
+    top: 1px;
+}
+
+header .visor-language {
+  margin-right: 10px;
+}
+
+header .visor-language > span {
+  color: white;
+  cursor: pointer;
+}
+
+div.lang-container {
+  min-width: 180px;
+}
+
+div.lang-container > p {
+  padding-left: 30px;
+}
+
+div.lang-container > p > span {
+  position: relative;
+  bottom: 2px;
+}
+
+div.lang-button {
+  margin-top: 2rem;
+  justify-content: center;
+}
+
+.visor-language .lang-selected {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.visor-language .lang-option {
+  margin-right: 10px;
+}
+
+.visor-language .lang-selected:hover, .visor-language .lang-option:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 870px) {
+  #root > div > div.content-wrapper > header.h-desktop > div.logo {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  #root > div > div.content-wrapper > header.h-desktop > div.logo-ign {
+    display: none;
+  }
+}
+
+
