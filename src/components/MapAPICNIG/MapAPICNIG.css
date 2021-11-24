@@ -5,8 +5,8 @@
 
 .visor-wrapper .maplienzo {
     border: 0;
-    width: 600px;
+    width: 100%;
     transition: all .3s ease-in-out;
-    height: 600px;
+    height: 100%;
     background-color:black;
 }

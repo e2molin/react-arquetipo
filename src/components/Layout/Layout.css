@@ -68,12 +68,3 @@ body,
   display: flex;
   justify-content: center;
 }
-
-
-.visor-wrapper .maplienzo {
-    border: 0;
-    width: 100%;
-    transition: all .3s ease-in-out;
-    height: 600px;
-    background-color:black;
-}

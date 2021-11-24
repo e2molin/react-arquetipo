@@ -2,12 +2,14 @@ import React, { Component } from 'react';
 import { Loader } from 'react-loaders';
 //import { translate } from 'react-i18next';
 
-import {MapAPICNIG} from 'components/MapAPICNIG/MapAPICNIG';
+
 import Header from 'components/Header/Header';
+import MapAPICNIG from 'components/MapAPICNIG/MapAPICNIG';
 import CustomModal from 'components/CustomModal/CustomModal';
-import { initMap } from 'utils/Visor';
 
 //import 'loaders.css/loaders.min.css';
+
+// Componente de clase
 import './Layout.css';
 
 class Layout extends Component {
@@ -21,8 +23,9 @@ class Layout extends Component {
 
   componentDidMount() {
     // initMap(this.unblock, this.props.t, this.props.params);
-    // initMap();
+    //initMap();
     console.log("componentDidMount");
+    
   }
 
   unblock = () => {
@@ -34,10 +37,7 @@ class Layout extends Component {
       <div className='content-wrapper'>
         <Header />
         <section className='layout-wrapper'>
-          {/* <MapAPICNIG /> */}
-            <div className="visor-wrapper">
-                <div id="mapjs" className="maplienzo"></div>
-            </div>
+        <MapAPICNIG />
         </section>
         <CustomModal open={this.state.blocking} blocking={true} onClose={this.unblock}>
           <div className='block-loader-container'>

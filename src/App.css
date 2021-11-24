@@ -8,11 +8,3 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
-.maplienzo {
-  border: 0;
-  width: 600px;
-  transition: all .3s ease-in-out;
-  height: 600px;
-  background-color:black;
-}

@@ -30,7 +30,7 @@ class Header extends Component {
 
   render() {
     const { langSelected } = this.state;
-
+    console.log(this.props);
     return (<Fragment>
       <header className='h-desktop'>
         <div className='logo-ign'>
