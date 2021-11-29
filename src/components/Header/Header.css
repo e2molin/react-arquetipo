@@ -1,5 +1,5 @@
 header {
-    height: 70px;
+    height: 75px;
     background-color: #494780;
     display: flex;
     align-items: center;
@@ -13,7 +13,7 @@ header .logo img {
 }
 
 header .logo-ign img {
-  max-height: 64px;
+  max-height: 60px;
   margin-left: 0.5rem;
   margin-top: 3px;
 }
@@ -28,8 +28,8 @@ header .visor-title {
 }
 
 header .visor-title img {
-    width: 155px;
-    height: 64px;
+    /*width: 155px;*/
+    height: 60px;
     position: relative;
     top: 1px;
 }
