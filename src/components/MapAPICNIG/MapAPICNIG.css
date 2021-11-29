@@ -1,6 +1,7 @@
 .visor-wrapper {
     flex: 1;
     overflow: hidden;
+    height: calc(100vh - 70px);/* La altura de la cabecera*/
 }
 
 .visor-wrapper .maplienzo {
@@ -9,4 +10,13 @@
     transition: all .3s ease-in-out;
     height: 100%;
     background-color:black;
+}
+
+@media (min-width: 300px) and (max-width: 1024px) {
+    .visor-wrapper {
+        flex: 1;
+        overflow: auto;
+        z-index: 10;
+        position: relative;
+    }
 }
